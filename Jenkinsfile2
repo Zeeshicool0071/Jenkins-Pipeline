@@ -1,6 +1,6 @@
 pipeline {
+agent any 
     stages {
-	agent any 
 	stage('Non-Parallel Stage') {
 	   steps {
                 echo 'This stage will be executed first'
